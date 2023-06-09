@@ -12,7 +12,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "OneFlow",
-            targets: ["_1Flow"]),
+            targets: ["OneFlow"]),
     ],
     
     dependencies: [
@@ -22,7 +22,7 @@ let package = Package(
     
     targets: [
         .target(
-            name: "_1Flow",
+            name: "OneFlow",
             path: "Survey",
             exclude: [
                 "1Flow",
